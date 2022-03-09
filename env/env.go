@@ -4,10 +4,11 @@ package env
 type Type string
 
 const (
-	// TypeLocal local env
-	TypeLocal = "local"
-	// TypeQa qa env
-	TypeQa = "qa"
-	// TypeProd prod env
-	TypeProd = "prod"
+	Local   = "local"   // 本地环境
+	Dev     = "dev"     // 调试环境
+	Qa      = "qa"      // 测试环境
+	Test    = "test"    // 测试环境
+	Prod    = "prod"    // 正式环境
+	Onl     = "onl"     // 正式环境
+	RunTime = "runtime" // RunTime 环境变量
 )
